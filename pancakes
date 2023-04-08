@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo website</title>
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            /* background: url('img/20220308_161604.jpg'); */
+        }
+        header img{
+            width: 100%;
+            
+        }
+        header{
+            margin: 0px;
+            padding: 0px;
+            background-color: black;
+        }
+        .left{
+            width: 30%;
+            position: absolute;
+            left: 1px;
+            top: 5px;
+            border: 2px solid red;
+            display: inline-block;
+        }
+        .mid{
+            width: 30%;
+            text-align: center;
+            border: 2px solid blue;
+            margin: 5px auto;
+        }
+        .right{
+            width: 30%;
+            display: inline-block;
+            position: absolute;
+            right: 1px;
+            top: 5px;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            i am left
+        </div>
+        <div class="mid">
+            i am mid
+        </div>
+        <div class="right">
+            i am right
+        </div>
+        <div class="image">
+            <img src="img/20220308_161604.jpg" alt="">
+        </div>
+    </header>
+    
+</body>
+</html>
